@@ -95,7 +95,7 @@ $links=getLinksFromSite1("http://www.google.co.in/search?num=3&q=intitle:index.o
 $finalLinks=array();
 foreach ($links as $link){
 	require_once("utils.php");
-	echo "\n\n\n\n\n";
+	//echo "123";
 	$siteLinks=getLinksFromSite1($link,false);
 	foreach($siteLinks as $sLink){
 		if(substr($sLink, -4) === ".mp4" || substr($sLink, -4) === ".mp3" || substr($sLink, -4) === ".pdf" || substr($sLink, -5) === ".epub"){

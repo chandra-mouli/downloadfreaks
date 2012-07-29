@@ -94,14 +94,14 @@
 		
 		return $ret;
 	}
-	//require("downloadfreak.php");
+	require("downloadfreak.php");
 	function main($query){
 		
 		$query = trim($query);
 		if($query[0]=='!' && $query[1]!='b') songs(substr($query,2));
-		elseif($query[0]=='!') books(substr($query,2));
+		elseif($query[0]=='!') books(substr($query,10));
 		else {
-			//echo "getting links\n <br>";
+			echo "getting links\n <br>";
 			getLinks($query);
 		}
 	}

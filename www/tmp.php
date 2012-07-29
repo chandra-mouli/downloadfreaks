@@ -19,7 +19,6 @@
 
 <body>
 
-</br></br></br></br></br></br></br></br>
 <div class="container" id="page">
 	<div id="header">
 		<div id="logo">Download Freaks
@@ -31,20 +30,20 @@
 		
 		</ul>
 	</div><!-- mainmenu -->
+	<div id="data">
+
+</br></br></br></br></br></br></br></br>
 	<div id="search">
-	<form action="search.php">
-	 <input type="textfield" placeholder="!b pride and prejudice"> <input type="submit" value="search">
+	<form action="doregama.php" method="get">
+	 <input name="query" type="textfield" style="height:30px"  placeholder="!b Harry Potter"> <input type="submit" style="height:30px" value="Download">
 	</form>
 	</div>
 	<div id="rules">
-	 <big>commands:</big> <br>
-	 !b for books <br>
-	 !m for music <br>
-	 !v for video.
+	use !b for books, !m for music and !v for video.
 	</div>
-	
+	</div>
 	<div id="footer">
-		We aren't responsible for the content available.
+		We don't take responsible of the content available.
 	</div><!-- footer -->
 
 </div><!-- page -->
